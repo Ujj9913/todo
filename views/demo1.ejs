@@ -1,0 +1,24 @@
+
+<html >
+    <head>
+       
+        <title>home page</title>
+    
+    </head>
+    <body>
+        <h1>this is data of the student</h1>
+        <table style="width: 100%">
+          <tr>
+              <th>rollno</th>
+              <th>name</th>
+              <th>address</th>
+              <th>mobile no</th>
+          </tr>
+          <%for(int i=0;i<data.length();i++){%>
+          <tr>
+           <th><%=data%></th>
+          </tr>
+          <% }%>
+        </table>
+    </body>
+    </html>

@@ -1,0 +1,82 @@
+body{
+    background:#0d1521;
+    font-family: tahoma;
+    color: #989898;
+}
+#todo-table{
+    position: relative;
+    width: 95%;
+    background: #090d13;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing:  border-box;
+}
+#todo-table form:after{
+    margin: 0;
+    content: '';
+    display: block;
+    clear: both;
+
+}
+input[type="text"]{
+    width: 70%;
+    padding: 20px;
+    background:#181c22;
+    border: 0;
+    float: left;
+    font-size:20px ;
+    color: #989898;
+}
+button{
+    padding: 20px;
+    width: 30%;
+    float: left;
+  background:#333c49;
+    ;
+    border: 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    font-size: 20px;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin:0;
+}
+li{
+    width: 100px;
+    padding: 20px;
+    box-sizing: border-box;
+    font-family: arial;
+    font-size: 20px;
+    cursor: pointer;
+    letter-spacing: 1px;
+
+}
+li:hover{
+    text-decoration: line-through;
+    background:rgba(0, 0, 0, 0.2);
+}
+#mask1 {
+    -webkit-mask-image: url(w3logo.png);
+    mask-image: url(w3logo.png);
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;    
+  }
+#box1 img {
+    
+    
+    background-image: url(https://www.seekpng.com/png/full/802-8025058_ok-check-todo-agenda-icon-symbol-tick-to.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+img{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%;
+}
+h1{
+    text-align: center;
+}

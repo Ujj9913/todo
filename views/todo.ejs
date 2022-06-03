@@ -1,0 +1,41 @@
+<html>
+
+<head>
+    <title>
+        Todo List
+    </title>
+
+    <!--  <script src="https://code.jquery.com/jquery-1.12.3.min.js"
+        integrity="sha256-aaODHAgvQW1bFOGXMeX+pC4PXIPsvn2h1sArYOhgXQ=" crossorigin="anonymouse"></script>
+    -->
+    <link href="/assets/style.css" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    </link>
+
+
+</head>
+
+<body>
+    <link href="/css/style.css" rel="stylesheet" type="text/css">
+    <img src="/assets/todo.svg" alt="logo">
+    </img>
+    <h1>Todo appliction</h1>
+
+    <div id="todo-table">
+        <form>
+            <input type="text" name="item" placeholder="Add new item..." required />
+            <button type="submit">Add item</button>
+        </form>
+
+        <ul>
+            <% for(var i=0 ; i < todos.length; i++){%>
+                <li>
+                    <%= todos[i].item %>
+                </li>
+                <% } %>
+        </ul>
+    </div>
+
+</body>
+
+</html>
